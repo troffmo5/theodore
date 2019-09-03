@@ -47,7 +47,7 @@ void linearFree(void* mem);
 
 #define MAX_CONTROLLERS   2
 #define VIDEO_FPS         50
-#define AUDIO_SAMPLE_RATE 22050
+#define AUDIO_SAMPLE_RATE 44100
 #define AUDIO_SAMPLE_PER_FRAME AUDIO_SAMPLE_RATE / VIDEO_FPS
 #define CPU_FREQUENCY     1000000
 // Pitch = length in bytes between two lines in video buffer
